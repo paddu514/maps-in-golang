@@ -1,0 +1,14 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	statepopulations :=map[string]int {
+	   "andhra pradesh" :    6718823,
+	   "telangana" :   83904548,
+	   "tamilanadu" :   47509203,
+	}
+	 fmt.println(statepopulations)
+}
